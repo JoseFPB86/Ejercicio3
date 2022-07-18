@@ -1,0 +1,65 @@
+body 
+{
+    background-image: url(ImagenFondo.jpg) ;
+    background-size: cover;    
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Poppins light', sans-serif;
+    font-size: large;    
+}
+
+label
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: white;    
+}
+
+select
+{
+    width: 389px;
+    color: grey;
+}
+
+input
+{
+    size: 50;
+}
+
+.form
+{
+    background-color: rgba(40, 47, 61, 0.897);  
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 400px; 
+    margin: auto;
+    margin-top: 10px;   
+    
+}
+
+button
+{
+    width: 405px;
+    background: rgb(55, 175, 101);
+    border: rgb(55, 175, 101);
+    border-radius: 4px;   
+    color: white;
+    text-transform: capitalize;
+    line-height: 2rem;
+    margin-top: 5px;
+    
+   
+    
+
+}

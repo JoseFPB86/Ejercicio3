@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Aplicación</title>
+    <link rel="icon" href="favicon-formulario.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 style="color: white;">Aplicar como desarrollador</h1>
+        
+        <div class="form">
+          <form>
+            <label for="nombre">Nombre</label>
+            <br> 
+            <input size="50" id="nombre" placeholder="Ingrese su nombre"/>   
+            <br> <br>
+            <label for="correo">Correo Electronico</label>
+            <br>
+            <input size="50" id="correo" placeholder="Ingrese su correo"/>
+            <br> <br>
+            <label for="edad">Edad (Opcional)</label>
+            <br>
+            <input size="50" id="edad" placeholder="Edad"/>
+            <br> <br>
+            <label for="rol">Qué opción describe mejor tu rol actual</label>
+            <br>
+            <select id="rol actual" name="rol actual">
+                <option value="default" hidden>Selecciona tu rol actual</option>
+                <option value="Frontend Development">Frontend Development</option>
+                <option value="Backend Development">Backend Development</option>
+                <option value="Full-Stack Development">Full-Stack Development</option>
+                <option value="Desktop Development">Desktop Development</option>
+                <option value="Mobile Development">Mobile Development</option>
+                <option value="Data Scientist">Data Scientist</option>
+            </select>
+            <br> <br>
+            <label for="disponibilidad">Con qué disponibilidad cuenta actualmente</label>
+            <br>
+            <input type="radio" id="inmediata" name="in" value="Inmediata">
+            <label for="inmediata">Inmediata</label><br>
+            <input type="radio" id="Noinmediata" name="no" value="NoInmediata">
+            <label for="Noinmediata">No Inmediata</label><br>
+            <br>
+            <label for="posicion">A qué posición deseas aplicar</label>
+            <br>
+            <select class="select" id="posicion" name="posicion aplicada">
+                <option value="default" hidden>Selecciona una opción</option>
+                <option value="Frontend Development">Frontend Development</option>
+                <option value="Backend Development">Backend Development</option>
+                <option value="Full-Stack Development">Full-Stack Development</option>
+                <option value="Desktop Development">Desktop Development</option>
+                <option value="Mobile Development">Mobile Development</option>
+                <option value="Data Scientist">Data Scientist</option>
+            </select>
+            <br> <br>
+            <label for="experiencia">Tiene experiencia en algunas de las siguientes tecnologías</label>
+            <br>
+            <input type="checkbox" id="C#" name="C#" value="C#">
+            <label for="C#">C#</label>
+            <br>
+            <input type="checkbox" id="Java" name="Java" value="Java">
+            <label for="Java">Java</label>
+            <br>
+            <input type="checkbox" id="HTML-CSS" name="HTML-CSS" value="HTML-CSS">
+            <label for="HTML-CSS">HTML y CSS</label>
+            <br>
+            <input type="checkbox" id="Javascript" name="Javascript" value="Javascript">
+            <label for="Javascript">Javascript</label>
+            <br>
+            <input type="checkbox" id="Go" name="Go" value="Go">
+            <label for="Go">GO</label>
+            <br>
+            <input type="checkbox" id="Rust" name="Rust" value="Rust">
+            <label for="Rust">Rust</label>
+            <br>
+            <input type="checkbox" id="Python" name="Python" value="Python">
+            <label for="Python">Python</label>
+            <br> <br>
+            <label for="comentario">Algo que quieras contarnos sobre ti</label>
+            <textarea name="message" rows="5"cols="52"></textarea>
+            <br> <br>
+            <button type="submit" form="form" value="Enviar">Enviar
+            </button>
+
+
+          </form>
+        </div>       
+
+    </div>   
+    
+</body>
+</html>
